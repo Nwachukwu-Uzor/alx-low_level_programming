@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* */
+/** 
+ *  main - The entry point of any c program   
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
