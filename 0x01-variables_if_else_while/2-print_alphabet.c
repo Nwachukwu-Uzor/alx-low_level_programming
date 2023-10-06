@@ -11,7 +11,8 @@ int main(void)
 {
 char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 int length = strlen(alpha);
-for (int i = 0; i < length - 1; i++)
-	putchar('%c', alpha[i]);
+int i;
+for (i = 0; i < length - 1; i++)
+	putchar(alpha[i]);
 return (0);
 }
