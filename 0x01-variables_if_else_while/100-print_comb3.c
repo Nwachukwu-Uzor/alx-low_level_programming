@@ -16,7 +16,7 @@ for (i = 0; i < 9; i++)
 	{
 		putchar('0' + i);
 		putchar('0' + j);
-		if (i < 8 && j < 9)
+		if (( i + j) < 17)
 		{
 			putchar(',');
 			putchar(' ');
