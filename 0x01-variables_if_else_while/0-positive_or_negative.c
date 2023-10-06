@@ -5,7 +5,7 @@
 *main - Entry point for the application
 *Return: prints a random number to the terminal on each run
 */
-int  main(void)
+int main(void)
 {
 int n;
 srand(time(0));
@@ -22,7 +22,7 @@ printf("%d is negative\n", n);
 }
 else
 {
-printf("%d is zero\n", n );
+printf("%d is zero\n", n);
 }
 return (0);
 }
