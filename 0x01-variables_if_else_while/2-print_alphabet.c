@@ -14,6 +14,6 @@ int length = strlen(alpha);
 int i;
 for (i = 0; i < length; i++)
 	putchar(alpha[i]);
-putchar('/n');
+putchar('\n');
 return (0);
 }
