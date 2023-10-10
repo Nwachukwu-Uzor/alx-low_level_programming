@@ -4,7 +4,7 @@
 * print_alphabet - A function that prints all lowercase alphabets
 * Return: Prints all lowercase characters from a to z
 */
-void print_alphabet(void) 
+void print_alphabet(void)
 {
 	char alp;
 
