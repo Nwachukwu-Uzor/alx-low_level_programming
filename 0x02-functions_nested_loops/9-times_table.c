@@ -30,13 +30,9 @@ void times_table(void)
 				if (mlt < 10)
 				{
 					_putchar(' ');
-					_putchar(' ');
-				} else
-				{
-					_putchar(' ');
 				}
 			}
 		}
 		_putchar('\n');
-	}
+i	}
 }
