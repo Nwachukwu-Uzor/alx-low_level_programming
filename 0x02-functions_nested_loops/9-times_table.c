@@ -14,6 +14,17 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			mlt = i * j;
+			if (j < 9)
+			{
+				if (mlt < 10)
+				{
+					_putchar(' ');
+					_putchar(' ');
+				} else
+				{
+					_putchar(' ');
+				}
+			}
 			if (mlt < 10)
 			{
 				_putchar(mlt + '0');
@@ -26,11 +37,7 @@ void times_table(void)
 			}
 			if (j < 9)
 			{
-				_putchar(',');
-				if (mlt < 10)
-				{
-					_putchar(' ');
-				}
+				_putchar(',);
 			}
 		}
 		_putchar('\n');
