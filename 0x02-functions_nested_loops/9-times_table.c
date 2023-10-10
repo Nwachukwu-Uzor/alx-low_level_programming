@@ -14,7 +14,7 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			mlt = i * j;
-			if (j < 9 && j > 0)
+			if (j > 0)
 			{
 				if (mlt < 10)
 				{
