@@ -10,7 +10,7 @@ int main(void)
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		_putchar('r');
+		_putchar(alp);
 		_putchar('\n');
 	}
 	return (0);
