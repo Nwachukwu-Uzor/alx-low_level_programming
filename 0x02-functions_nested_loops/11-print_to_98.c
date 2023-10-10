@@ -1,4 +1,4 @@
-#include <stdio.lib>
+#include <stdio.h>
 
 /**
 * print_to_98 -  98 Battery Street, the OG
@@ -11,9 +11,10 @@ void print_to_98(int n)
 	int temp;
 
 	temp = n;
-	while (temp <= 98)
+	while (temp < 98)
 	{
-		printf("%d", temp);
+		printf("%d, ", temp);
 		temp++;
 	}
+	printf("98");
 }
