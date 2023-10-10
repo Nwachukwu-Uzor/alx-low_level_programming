@@ -8,6 +8,7 @@
 void jack_bauer(void)
 {
 	int hr, min;
+	int whole, rem;
 
 	for (hr = 0; hr < 24; hr++)
 	{
@@ -16,14 +17,28 @@ void jack_bauer(void)
 			if (hr < 10)
 			{
 				_putchar('0');
+				_putchar(hr + '0');
+			} else
+			{
+				whole = hr / 10;
+				rem = hr % 10;
+				_putchar(whole + '0');
+				_putchar(rem + '0');
 			}
-			_putchar(hr);
+
 			_putchar(':');
+
 			if (min < 10)
 			{
 				_putchar('0');
+				_putchar(min + '0');
+			} else
+			{
+				whole = min / 10;
+				rem = min % 10;
+				_putchar(whole + '0');
+				_putchar(rem + '0');
 			}
-			_putchar(min);
 			_putchar('\n');
 		}
 	}
