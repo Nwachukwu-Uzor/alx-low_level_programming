@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * main - Entry point
@@ -6,6 +7,15 @@
 */
 int main(void)
 {
-_putchar("_putchar\n");
+char[] ltp = "_putchar";
+int size = strlen(ltp);
+_putchar("_");
+_putchar("p");
+_putchar("u");
+_putchar("t");
+_putchar("c");
+_putchar("a");
+_putchar("r");
+_putchar("\n");
 return (0);
 }
