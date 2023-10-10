@@ -32,14 +32,14 @@ void print_times_table(int n)
 			{
 				_putchar(' ');
 			}
-			if (mlt > 100)
+			if (mlt >= 100)
 			{
 				_putchar((mlt / 100) + '0');
-				_putchar(((mlt / 100) % 10) + '0');
+				_putchar(((mlt / 10) % 10) + '0');
 			} else if (mlt > 10)
 			{
 				_putchar((mlt / 10) + '0');
-			}
+			}i
 			_putchar((mlt % 10) + '0');
 		}
 		_putchar('\n');
