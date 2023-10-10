@@ -23,6 +23,15 @@ void print_times_table(int n)
 			_putchar(',');
 			_putchar(' ');
 			mlt = i * j;
+
+			if (mlt < 100)
+			{
+				_putchar(' ');
+			}
+			if (mlt < 10)
+			{
+				_putchar(' ');
+			}
 			if (mlt > 100)
 			{
 				_putchar((mlt / 100) + '0');
