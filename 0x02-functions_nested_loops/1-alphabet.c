@@ -1,15 +1,9 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* print_alphabet - A function that prints all lowercase alphabets
 * Return: Prints all lowercase characters from a to z
 */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void) 
 {
 	char alp;
