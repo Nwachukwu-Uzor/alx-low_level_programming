@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
 * main - Entry point
@@ -7,8 +6,6 @@
 */
 int main(void)
 {
-char[] ltp = "_putchar";
-int size = strlen(ltp);
 _putchar("_");
 _putchar("p");
 _putchar("u");
