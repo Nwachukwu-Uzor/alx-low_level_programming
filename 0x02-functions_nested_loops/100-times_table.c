@@ -39,7 +39,7 @@ void print_times_table(int n)
 			} else if (mlt > 10)
 			{
 				_putchar((mlt / 10) + '0');
-			}i
+			}
 			_putchar((mlt % 10) + '0');
 		}
 		_putchar('\n');
