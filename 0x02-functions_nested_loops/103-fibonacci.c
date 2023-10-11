@@ -13,8 +13,7 @@ int main(void)
 	b = 2;
 	next = 0;
 	sum = 2;
-	printf("%ld, %ld", a, b);
-	while (sum < 4000000)
+	while (next < 4000000)
 	{
 		next = a + b;
 		if ((next % 2) == 0)
@@ -26,4 +25,4 @@ int main(void)
 	}
 	printf("%ld\n", sum);
 	return (0);
-}
+
