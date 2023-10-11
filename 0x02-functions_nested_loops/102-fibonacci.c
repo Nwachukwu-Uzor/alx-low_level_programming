@@ -21,5 +21,6 @@ int main(void)
 		a = b;
 		b = next;
 	}
+	printf("\n");
 	return (0);
 }
