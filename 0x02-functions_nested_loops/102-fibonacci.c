@@ -13,11 +13,11 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	printf("%d, %d, ", a, b);
+	printf("%ld, %ld, ", a, b);
 	for (i = 0; i < 50; i++)
 	{
 		next = a + b;
-		printf("%d, ", next);
+		printf("%ld, ", next);
 		a = b;
 		b = next;
 	}
