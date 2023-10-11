@@ -7,7 +7,6 @@
 
 int main(void)
 {
-	int i;
 	long a, b, next, sum;
 
 	a = 1;
