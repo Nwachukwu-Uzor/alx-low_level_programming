@@ -17,7 +17,7 @@ int main(void)
 			putchar(' ');
 		}
 
-		if ((i % 3) == 0 && (i % 5) == 0)
+		if ((i % 15) == 0)
 		{
 			printf("FizzBuzz");
 			continue;
@@ -37,5 +37,6 @@ int main(void)
 
 		printf("%d", i);
 	}
+	printf("\n");
 	return (0);
 }
