@@ -2,24 +2,25 @@
 
 /**
 * more_numbers - prints 10 times the numbers, from 0 to 14
-* Return: void
+* Return: no return value
 */
 
 void more_numbers(void)
 {
-	int i, j;
+	int i, j, rem, wh;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			if (i < 10)
+			wh = j / 10;
+			rem = j % 10;
+
+			if (wh > 0)
 			{
-				_putchar(i + '0');
-				continue
+				_putchar(wh + '0');
 			}
-			_putchar((i / 10) + '0');
-			/*_putchar((i % 10) + '0');*/
+			_putchar(rem + '0');
 		}
 		_putchar('\n');
 	}
