@@ -34,7 +34,7 @@ int _atoi(char *s)
 		}
 		i++;
 	}
-	n *= m;
+	j *= m;
 
-	return (n);
+	return (j);
 }
