@@ -2,18 +2,27 @@
 #include <stdio.h>
 
 /**
-* main - encodes a string into 1337
-* Return: no return
+* leet - encodes a string into 1337
+* @s: the character to encode
+* Return: the encoded character
 */
 
-void main(void)
+char *leet(char *s)
 {
-	char s[] = "Expect the best. Prepare for the worst.\n"
-	" Capitalize on what comes.\n";
-	char *p;
+	int i, j;
+	char arr1[] = "aAeEoOtTlL";
+	char arr2[] = "4433007711";
 
-	p = leet(s);
-	printf("%s", p);
-	printf("%s", s);
-	return (0);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (s[i] == arr1[j])
+			{
+				s[i] = arr2[j];
+			}
+		}
+	}
+
+	return (s);
 }
