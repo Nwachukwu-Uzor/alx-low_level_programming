@@ -19,5 +19,5 @@ char *string_toupper(char *s)
 		i++;
 	}
 
-	return (str);
+	return (s);
 }
