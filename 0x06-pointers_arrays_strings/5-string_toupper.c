@@ -2,22 +2,22 @@
 
 /**
 * string_toupper - changes all lowercase letters of a string to uppercase
-* @c: the character to be converted
-* Return: uppercase char 
+* @str: the character to be converted
+* Return: uppercase str
 */
 
-char *string_toupper(char *c)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
-	while (c[i])
+	while (str[i])
 	{
-		if (c[i] >= 'a' && c[i] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			c[i] -= 32;
+			str[i] -= 32;
 			i++;
 		}
 	}
 
-	return (c);
+	return (str);
 }
