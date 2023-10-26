@@ -28,7 +28,7 @@ int is_palindrome(char *s)
 
 int _compare_string(char *s, int i, int j)
 {
-	if ((s + j) == *(s + i))
+	if (*(s + j) == *(s + i))
 	{
 		if (i == j || j == i + 1)
 		{
