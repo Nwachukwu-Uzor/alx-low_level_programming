@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-#include <ctype.h>
+#include <stdio.h>
 
 /**
 * _putchar - Prints a character
