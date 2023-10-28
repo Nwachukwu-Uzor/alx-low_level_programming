@@ -9,7 +9,7 @@
 * Return: always returns 0
 */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	int cnt, mcoins = 0;
 
