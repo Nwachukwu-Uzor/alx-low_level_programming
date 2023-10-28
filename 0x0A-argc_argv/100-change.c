@@ -27,19 +27,19 @@ int main(int argc, char *argv[])
 		{
 			cnt -= 25;
 		}
-		if (cnt >= 10)
+		else if (cnt >= 10)
 		{
 			cnt -= 10;
 		}
-		if (cnt >= 5)
+		else if (cnt >= 5)
 		{
 			cnt -= 5;
 		}
-		if (cnt >= 2)
+		else if (cnt >= 2)
 		{
 			cnt -= 2;
 		}
-		if (cnt >= 1)
+		else if (cnt >= 1)
 		{
 			cnt -= 1;
 		}
