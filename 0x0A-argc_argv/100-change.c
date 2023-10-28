@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
-* main - adds positive numbers
+* main - prints the minimum number of coins to make change
 * @argc: the number of arguments
 * @argv: the argument vector
 * Return: always returns 0
