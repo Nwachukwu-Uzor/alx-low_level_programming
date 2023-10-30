@@ -44,8 +44,8 @@ char *str_concat(char *s1, char *s2)
 		if (m >= i)
 		{
 			ch[m] = s2[m];
+			j++;
 		}
-
 		m++;
 	}
 	ch[m] = '\0';
