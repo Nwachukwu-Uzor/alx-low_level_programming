@@ -43,7 +43,7 @@ char *str_concat(char *s1, char *s2)
 		}
 		if (m >= i)
 		{
-			ch[m] = s2[m];
+			ch[m] = s2[j];
 			j++;
 		}
 		m++;
