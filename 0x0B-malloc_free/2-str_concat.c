@@ -26,15 +26,14 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 	while (s2[j])
-	{
 		j++;
-	}
 	n = i + j;
 	ch = malloc((sizeof(char) * n) + 1);
 	if (ch == NULL)
 	{
 		return (NULL);
 	}
+	j = 0;
 	while (m < n)
 	{
 		if (m <= i)
