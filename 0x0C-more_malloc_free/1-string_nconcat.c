@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			s[l] = s1[l];
 		if (l >= i)
 		{
-			s[l] = s2[l];
+			s[l] = s2[j];
 			j++;
 		}
 		l++;
