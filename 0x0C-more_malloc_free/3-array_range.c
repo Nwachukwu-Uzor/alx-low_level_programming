@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
 * array_range - returns a pointer to a 2 dimensional array of integers
