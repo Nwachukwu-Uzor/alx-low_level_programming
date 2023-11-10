@@ -37,13 +37,13 @@ void print_all(const char * const format, ...)
 					s = va_arg(characters, char *);
 					if (!s)
 						s = "(nil)";
-						printf("%s%s", spt, s);
-						break;
-					default:
-						i++;
-						continue;
+					printf("%s%s", spt, s);
+					break;
+				default:
+					i++;
+					continue;
 			}
-			spt = ",";
+			spt = ", ";
 			i++;
 		}
 	}
