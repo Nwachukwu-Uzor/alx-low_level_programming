@@ -5,6 +5,8 @@
 /**
 * print_all - prints anything
 * @format: list of types of arguments passed to the function
+* @...: the list of parameters
+* Return: Nothing
 */
 
 void print_all(const char * const format, ...)
