@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include "main.h"
 #include "main.h"
 
 int _raise_to_power(unsigned int base, unsigned int power);
