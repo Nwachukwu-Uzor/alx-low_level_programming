@@ -27,7 +27,7 @@ void _print_binary(unsigned long int value)
 /**
  * print_binary - prints the binary representation of a number
  * @n: the number to print
- * Return: void
+ * Return: nothing
  */
 
 void print_binary(unsigned long int n)
