@@ -1,7 +1,5 @@
 #include "main.h"
 
-void _print_binary(unsigned long int value);
-
 /**
  * _print_binary - prints a binary number recursively
  * @value: the value to print
