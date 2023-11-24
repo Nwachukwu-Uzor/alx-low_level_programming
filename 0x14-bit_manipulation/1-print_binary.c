@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _print_binary - prints a binary number recursively
+ * _print_bin - prints a binary number recursively
  * @value: the value to print
  */
 
-void _print_binary(unsigned long int value)
+void _print_bin(unsigned long int value)
 {
 	if (value == 0)
 	{
 		return;
 	}
 
-	_print_binary(value >> 1);
+	_print_bin(value >> 1);
 	if ((value & 1) == 1)
 	{
 		_putchar('1')
@@ -37,6 +37,6 @@ void print_binary(unsigned long int n)
 		_putchar('0');
 	} else
 	{
-		_print_binary(n);
+		_print_bin(n);
 	}
 }
