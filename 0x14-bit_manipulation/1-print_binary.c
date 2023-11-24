@@ -32,7 +32,7 @@ void print_binary(unsigned long int n)
 	char flag;
 
 	flag = 0;
-	div = _raise_to_power(2, sizeof(unsigned long int) * 8 - 1);
+	div = _raise_to_power(2, (sizeof(unsigned long int) * 8) - 1);
 	while (div != 0)
 	{
 		check = n & div;
