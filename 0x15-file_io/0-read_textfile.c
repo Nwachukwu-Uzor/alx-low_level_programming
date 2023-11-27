@@ -11,8 +11,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buffer;
 	ssize_t file_depth;
-	ssize_t word_count;
-	ssize_t total;
+	ssize_t w;
+	ssize_t t;
 
 	file_depth = open(filename, O_RDONLY);
 	if (file_depth == -1)
@@ -22,9 +22,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buffer = malloc(sizeof(char) * letters);
 	t = read(file_depth, buffer, letters);
-	word_count = write(STDOUT_FILENO, buffer, total);
+	w = write(STDOUT_FILENO, buffer, t);
 
 	free(buffer);
 	close(file_depth);
-	return (word_count);
+	return (w);
 }
